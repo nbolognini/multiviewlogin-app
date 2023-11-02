@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
 
   function pausar(){
@@ -16,10 +17,6 @@ function App() {
           <code> PASSWORD </code> 
           <input className="password" type="text" name="password"></input>
           <button onClick={pausar}>Login</button>
-
-          <button>HOLA</button>
-
-
         </p>
       </header>
     </div>
